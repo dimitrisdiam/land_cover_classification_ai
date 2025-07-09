@@ -77,7 +77,5 @@ def main():
     # Generate simulated map
     create_classification_map(clf)
 
-    print("✅ Model training complete. Results saved in 'models/' and 'outputs/'.")
-
 if __name__ == '__main__':
     main()
