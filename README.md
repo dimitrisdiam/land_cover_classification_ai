@@ -90,29 +90,6 @@ This aligns well with real remote sensing principles:
 
 ---
 
-## 📦 Installation
-
-```bash
-git clone https://github.com/<your-user>/land-cover-classification-ai
-cd land-cover-classification-ai
-python -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-
-python src/generate_data.py
-python src/train_model.py
-```
-
----
-
-## 🧪 Test
-
-Run a basic test with:
-```bash
-pytest tests/
-```
-
----
-
 ## 👋 Final Notes
 
 This project was built to show my interest and skills in geospatial ML and sustainability analytics.  
@@ -120,7 +97,3 @@ While it uses **synthetic data**, it follows best practices in:
 - structuring reproducible code
 - interpreting model outputs
 - building pipelines that could scale to real satellite data
-
----
-
-© 2025 Dimitrios Diamantidis – MIT License
